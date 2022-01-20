@@ -77,6 +77,9 @@ var createTaskEl = function(taskDataObj) {
 
   tasks.push(taskDataObj);
 
+  // add entire list item to list
+  tasksToDoEl.appendChild(listItemEl);
+
   // save tasks to localStorage
   saveTasks();
 
